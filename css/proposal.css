@@ -1,0 +1,13 @@
+/* Стили страницы коммерческого предложения */
+.proposal-hero { padding: 96px 0 48px; background: radial-gradient(900px 600px at 10% -20%, rgba(37,208,184,.12), rgba(37,208,184,0) 60%), radial-gradient(900px 600px at 90% -10%, rgba(91,124,255,.12), rgba(91,124,255,0) 60%); }
+.proposal-hero h1 { font-size: 3rem; font-weight: 800; }
+
+.muted { color: var(--muted); }
+
+@media print {
+  .site-header nav a, .site-header nav button, .site-header nav .btn { display: none !important; }
+  .site-header { position: static; background: transparent; border: none; }
+  body { background: #fff; color: #000; }
+  .card, .section, .container { box-shadow: none !important; background: #fff !important; color: #000 !important; }
+  a { color: #000 !important; text-decoration: none; }
+}
